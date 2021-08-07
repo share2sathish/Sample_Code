@@ -5,5 +5,11 @@ Binary search:
 	  Ex: From one billon elemnets , If we want to find particular element	
 		  It will 33 iteration to find that element.
 		  
+Point to be noted:
+
+	- Binary search is a lot faster than simple search.
+	- O(log n) is faster than O(n), but it gets a lot faster once 
+	  the list of items you’re searching through grows.
+		  
 		  
 	
