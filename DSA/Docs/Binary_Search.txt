@@ -1,0 +1,25 @@
+Number of operations taken:
+
+	 Liner time O(n)
+		- maximum number of guesses is the same as the size of the list
+		Ex:
+			100 element
+			100 guess
+	 logarthimic time O(log n)
+		
+		Ex:
+			100 element
+			7 guess
+		
+		log  100 = 7 ( because 2 ^ 7 = 128 )
+		   2
+		   
+Binary search:
+
+	- Best to use when list of element in sorted order.
+	- O(log n ) operations binary search can possibly make.
+	  Ex: From one billon elemnets , If we want to find particular element	
+		  It will 33 iteration to find that element.
+		  
+		  
+	
