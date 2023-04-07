@@ -1,0 +1,15 @@
+def division(func):
+    def input(a,b):
+        if b == 0:
+            return "We can divide."
+        func(a,b)
+    return input
+        
+
+
+@division
+def divide(a,b):
+    print(f"Division Result {a/b}")
+    
+divide(4,2)
+
