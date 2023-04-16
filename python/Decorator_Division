@@ -1,8 +1,9 @@
 def division(func):
-    def input(a,b):
-        if b == 0:
+    def input(*args, **kargs):
+        print(args)
+        if args[1] == 0:
             return "We can divide."
-        func(a,b)
+        func(args[0],args[1])
     return input
         
 
