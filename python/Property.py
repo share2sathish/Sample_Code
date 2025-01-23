@@ -31,5 +31,5 @@ print(person.fullname)  # > selva prabhakaran
 del person.fullname
 
 # Print the changed values of `first` and `last`
-print(person.first)  # > None
-print(person.last)  # > None
+print(f"First name: {person.first}")  # > None
+print(f"last Name: {person.last}")  # > None
