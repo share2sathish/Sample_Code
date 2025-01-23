@@ -30,6 +30,6 @@ print(person.fullname)  # > selva prabhakaran
 # Deleting fullname calls the deleter method, which erases self.first and self.last
 del person.fullname
 
-# Print the changed values of `first` and `last`
+# Print the changed values of `first` and "last"
 print(f"First name: {person.first}")  # > None
 print(f"last Name: {person.last}")  # > None
